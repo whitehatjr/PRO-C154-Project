@@ -25,9 +25,8 @@ AFRAME.registerComponent("coins", {
         property: "rotation",
         to: "0 360 0",
         loop: "true",
-        dur: 1000,
-      });  
-       
+        dur: 1000
+      });         
       
       treasureEntity.appendChild(coinEl);
     }
