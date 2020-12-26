@@ -20,7 +20,7 @@ AFRAME.registerComponent("fish", {
 
     fishEl.setAttribute("scale", { x: 0.3, y: 0.3, z: 0.3 });
 
-    fishEl.setAttribute("gltf-model", "./assets/lownfish/scene.gltf");
+    fishEl.setAttribute("gltf-model", "./assets/fish/scene.gltf");
 
     
     fishEl.setAttribute("animation", {
