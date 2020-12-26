@@ -3,8 +3,7 @@
   <head>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
-
+    
     <!-- IMPORTED COMPONENTS -->
     <script src="./js/Fish.js"></script>
     <script src="./js/Treasure.js"></script>
@@ -12,7 +11,7 @@
     <script src="./js/Game.js"></script>
   </head>
   <body>
-    <a-scene physics>
+    <a-scene >
       <!---Assets-->
       <a-a-assets>
         <a-asset-item id="island" src="assets/island/scene.gltf"></a-asset-item>
@@ -93,8 +92,7 @@
         gltf-model="#scuba_driver"
         scale="0.1 0.1 0.1"
         position="5 0 15"
-        rotation="0 90 -20"
-        dynamic-body="shape:sphere;sphereRadius:5.5;"
+        rotation="0 90 -20"        
         driver-rotation-reader
       >
         <a-sphere
