@@ -27,7 +27,7 @@ AFRAME.registerComponent("fish", {
       property: "position",
       to: "100 10 -20",
       loop: "true",
-      dur: 20000,
+      dur: 20000
     });
 
     fishEl.setAttribute("animation-mixer", {});
