@@ -34,4 +34,4 @@ AFRAME.registerComponent("fish", {
 
     fishModelEntity.appendChild(fishEl);
   }
-});
+})

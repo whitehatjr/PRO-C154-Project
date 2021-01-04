@@ -3,15 +3,14 @@
   <head>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
-    
-    <!-- IMPORTED COMPONENTS -->
+
+    <!-- COMPONENT FILES-->
     <script src="./js/Fish.js"></script>
     <script src="./js/Treasure.js"></script>
     <script src="./js/Rotation.js"></script>
-    
   </head>
   <body>
-    <a-scene >
+    <a-scene>
       <!---Assets-->
       <a-a-assets>
         <a-asset-item id="island" src="assets/island/scene.gltf"></a-asset-item>
@@ -92,7 +91,7 @@
         gltf-model="#scuba_driver"
         scale="0.1 0.1 0.1"
         position="5 0 15"
-        rotation="0 90 -20"        
+        rotation="0 90 -20"
         driver-rotation-reader
       >
         <a-sphere
